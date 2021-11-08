@@ -1,0 +1,106 @@
+a {
+    color: red;
+    font-size: 13px;
+}
+
+div {
+    color: #FF3A83;
+}
+
+#moya_ssilka {
+    color: lime;
+}
+
+#testovaya_ssilka {
+    font-size: 20px;
+    color: #8737FF;
+}
+
+.human {
+    color: #4c8bf5;
+}
+
+.animal {
+    color: mediumslateblue;
+}
+
+.lion {
+    color: #ffce45;
+}
+
+.monkey {
+    color: #000000;
+}
+
+.fish {
+    color: #73ECFF;
+}
+
+.message {
+    color: #747474;
+    background-color: #e4e4e4;
+    border: 1px solid #323232;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.fail {
+    background-color: #19a15f;
+    color: #FFFFFF;
+}
+
+.success {
+    background-color: #d65144;
+    color: #FFFFFF;
+}
+
+.info {
+    background-color: #4b8bf5;
+    color: #FFFFFF;
+}
+
+.warning {
+    background-color: #ffce43;
+    color: #000000;
+}
+
+.message:hover {
+    border: 10px solid #323232;
+}
+
+#testovaya_ssilka:hover {
+    border: 10px solid #323232;
+}
+
+#test {
+    transform: scale(0.5);
+    transition: 0.5s all;
+
+    background-color: #4e8df5;
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 15px;
+    border: 7px solid #d85346;
+    border-radius: 30px;
+    opacity: 0.4;
+    box-shadow: 13px 13px 7px #000000;
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+#test:hover {
+    transform: rotate(45deg) scale(0.5);
+    opacity: 1;
+    background-color: red;
+}
+
+body {
+    background-image: url(images/1.jpg);
+}
